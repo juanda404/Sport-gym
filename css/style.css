@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family:Verdana, Tahoma, sans-serif
+}
+/*Styles of head*/
+.head{
+    background-color: white;
+    color: black;
+    height: 80px;
+    border: 1px solid #fd3d0d;
+}
+/*Style of navigate*/
+.head nav ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:30px;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+ 
+
+}
+.head nav ul li a{
+    text-decoration: none;
+}
+/*Estilos menu principal*/
+.main, .main-nutrition{
+    background-color: #0d1115;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.main p, .main-advice p{
+
+    padding: 20px 15px 20px 15px;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+/*segunda seccion de main*/
+.main-advice h2, .main-calendar h2, .main-exercises h2{
+    background-color: #ffebe6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fd3d0d;
+    font-size: 2.4rem;
+}
+.main-advice ul{
+    font-size: 1.6rem;
+    list-style: none;
+    text-align: justify;
+    padding: 0 15px 15px 15px;
+}
+/*Tercera seccion calendario*/
+.main-calendar table{
+    width: 100%;
+    border: 1px solid #000;
+}
+.main-calendar tr th{
+    width: 10%;
+    text-align: left;
+
+}
+/*Cuarta seccion ejercicios*/
+.main-exercises{
+    background-color: #ffebe6;
+    height: 230px;
+}
+.main-exercises ul{
+    font-size: 1.6rem;
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+}
+.main-exercises ul a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 304px;
+    text-align: left;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    position: relative;
+    left: 10px;
+    padding: 2px;
+}
+/*quinta seccion nutricion*/
+.main-nutrition{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 15px;
+    height: 250px;
+    gap: 15px
+}
+.main-nutrition h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.main-nutrition p{
+    font-size: 1.6rem;
+}
+/*pie de pagina*/
+.foot {
+    background-color: #fd3d0d;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-size: 1.4rem
+ }
+ .foot section a{
+    text-decoration: none;
+    padding-bottom: 10px;
+ }
