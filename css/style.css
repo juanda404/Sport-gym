@@ -9,13 +9,12 @@ html{
 }
 /*Styles of head*/
 .head{
-    background-color: white;
+    background-color:  #fd3d0d;
     color: black;
     height: 80px;
-    border: 1px solid #fd3d0d;
 }
 /*Style of navigate*/
-.head nav ul{
+.head-menu{
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -23,10 +22,10 @@ html{
     list-style: none;
     font-size: 1.6rem;
     font-weight: 600;
- 
-
+    list-style-type: none;
 }
-.head nav ul li a{
+.head-menu li a{
+    color: white;
     text-decoration: none;
 }
 /*Estilos menu principal*/
@@ -51,7 +50,6 @@ html{
 }
 /*segunda seccion de main*/
 .main-advice h2, .main-calendar h2, .main-exercises h2{
-    background-color: #ffebe6;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -76,7 +74,7 @@ html{
 }
 /*Cuarta seccion ejercicios*/
 .main-exercises{
-    background-color: #ffebe6;
+   /* background-color: #ffebe6;*/
     height: 230px;
 }
 .main-exercises ul{
@@ -96,6 +94,8 @@ html{
     position: relative;
     left: 10px;
     padding: 2px;
+    text-align: center;
+    color: black;
 }
 /*quinta seccion nutricion*/
 .main-nutrition{
@@ -106,7 +106,7 @@ html{
     height: 250px;
     gap: 15px
 }
-.main-nutrition h3{
+.main-nutrition h2{
     font-size: 2.5rem;
     text-align: center;
 }
@@ -114,7 +114,7 @@ html{
     font-size: 1.6rem;
 }
 /*pie de pagina*/
-.foot {
+footer {
     background-color: #fd3d0d;
     width: 100%;
     height: 80px;
@@ -124,9 +124,10 @@ html{
     align-items: center;
     color: white;
     gap: 5px;
-    font-size: 1.4rem
+    font-size: 1.4rem;
  }
- .foot section a{
+ footer section a{
     text-decoration: none;
     padding-bottom: 10px;
+    color: black;
  }

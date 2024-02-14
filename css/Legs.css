@@ -9,13 +9,12 @@ html{
 }
 /*Styles of head*/
 .head{
-    background-color: white;
+    background-color: #fd3d0d;
     color: black;
     height: 80px;
-    border: 1px solid #fd3d0d;
 }
 /*Style of navigate*/
-.head nav ul{
+.head-menu{
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -23,10 +22,10 @@ html{
     list-style: none;
     font-size: 1.6rem;
     font-weight: 600;
- 
-
+    list-style-type: none;
 }
-.head nav ul li a{
+.head-menu li a{
+    color: white;
     text-decoration: none;
 }
 /*Zona principal de la web*/
@@ -45,16 +44,43 @@ html{
     padding-top: 10px;
 }
 .main p{
-    padding: 20px 15px 20px 15px;
+    padding: 12px 38px 9px 31px;
     font-size: 1.6rem;
-    text-align:center;
+    text-align: center;
 }
 .main a{
     text-decoration: none;
 }
-.main div ol{
+
+.main-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main-cards div{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    background-color: #fd3d0d;
+    border-radius: 20px;
+}
+.main-cards div img{
+    width: 100%;
+    border-radius: 20px;
+}
+.main a{
+    background-color: #ffebe6;
+    width: 200px;
+    height: 40px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 /*pie de pagina*/
@@ -73,5 +99,6 @@ html{
  .foot section a{
     text-decoration: none;
     padding-bottom: 10px;
+    color: black;
 
  }

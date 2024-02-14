@@ -1,0 +1,58 @@
+/*Style of navigate*/
+.head nav ul{
+    justify-content: flex-start;
+    gap:20px;
+    padding-left: 15px;
+}
+
+.main p{
+    width: 80%;
+}
+.main-advice{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-advice p, .main-advice ul{
+    width: 80%;
+    padding-left: 95px;
+}
+
+.main-calendar{
+    display: flex;
+    flex-direction: column;
+}
+.main-calendar table{
+    align-self: center;
+    width: 40%;
+}
+.main-exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-nutrition{
+    display: flex;
+    flex-direction: column;
+}
+.main-nutrition p {
+    font-size: 1.6rem;
+    width: 80%;
+}
+.main-nutrition h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/*pie de pagina*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer .letf{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
