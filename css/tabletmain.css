@@ -4,18 +4,29 @@
     gap:20px;
     padding-left: 15px;
 }
-
+/*Menu principal*/
+.main{
+    display: flex;
+}
 .main p{
     width: 80%;
 }
+
+.main-activityes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+
 .main-advice{
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 .main-advice p, .main-advice ul{
     width: 80%;
-    padding-left: 95px;
 }
 
 .main-calendar{
